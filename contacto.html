@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/820d828ec1.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <header>
+        <div class="icono_menu">
+            <i class="fa-solid fa-bars" id="boton_open"></i>
+        </div>
+    </header>
+
+    <div class="menu_side" id="menu_side">
+
+        <div class="name_page">
+            <i class="fa-brands fa-galactic-republic"></i>
+            <h4>PhotoPlus</h4>
+        </div>
+
+        <div class="opciones_menu">
+
+            <a href="./index.html" class="selected">
+                <div class="opciones">
+                    <i class="fa-solid fa-house" title="Inicio"></i>
+                    <h4>Incio</h4>
+                </div>
+            </a>
+
+            <a href="./portfolio.html">
+                <div class="opciones">
+                    <i class="fa-solid fa-camera-retro" title="portfolio"></i>
+                    <h4>Portfolio</h4>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="opciones">
+                    <i class="fa-solid fa-address-book" title="Contacto"></i>
+                    <h4>Contacto</h4>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+        <main>
+            <form class="formulario" id="formulario" action="">
+                <h1 class="formulario__titulo">Contáctenos</h1>
+                <input name="nombre" type="text" class="formulario__input">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <input name="correo" type="text" class="formulario__input">
+                <label for="correo" class="formulario__label">Correo</label>
+                <input name="telefono"  type="text" class="formulario__input">
+                <label for="telefono" class="formulario__label">Teléfono</label>
+                <input  name="mensaje" type="text" class="formulario__input">
+                <label for="mensaje" class="formulario__label">Mensaje</label>
+                <input type="submit" class="formulario__submit">
+            </form>
+            <a id="truco" href="mailto:tbolotnicoff@gmail.com">mail</a>
+        </main>
+
+        <footer>
+            <section>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""> <i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </section>
+        </footer>
+
+    <script src="./JS/indes.js"></script>
+    <script src="./JS/formulario.js"></script>
+</body>
+</html>
